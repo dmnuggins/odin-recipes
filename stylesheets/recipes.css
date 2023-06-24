@@ -48,6 +48,10 @@ li {
     font-family: 'Open Sans', sans-serif;
 }
 
+p {
+    text-align: left;
+}
+
 ul {
     text-align: left;
     list-style-position: inside;
