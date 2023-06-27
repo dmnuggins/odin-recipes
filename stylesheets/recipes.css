@@ -5,6 +5,22 @@
     src: url("shin-go-medium.otf");
 }
 
+* {
+    box-sizing: border-box;
+}
+
+.button {
+    flex: 1;
+    padding: 20px 30px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+
 .content {
     max-width: 700px;
     margin: auto;
@@ -13,7 +29,11 @@
 
 .recipe-instructions {
     max-width: 60%;
-    margin: auto;
+    margin:  10px auto;
+}
+
+.bottom-nav {
+    margin: 50px auto;
 }
 
 a {
@@ -46,6 +66,7 @@ h3 {
 
 li {
     font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0.5rem;
 }
 
 p {
